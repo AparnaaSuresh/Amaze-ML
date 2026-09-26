@@ -1,0 +1,6 @@
+# Pin exact versions after the baseline environment is tested.
+numpy
+pandas
+scikit-learn
+rapidfuzz
+

@@ -1,0 +1,38 @@
+# Competition data must be downloaded separately by each teammate.
+student_resource/dataset/
+
+# Generated predictions and experiment artifacts.
+student_resource/output/*
+!student_resource/output/.gitkeep
+artifacts/
+models/
+checkpoints/
+
+# Python environments and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local configuration.
+.env
+.env.*
+!.env.example
+
+# Notebooks and editor/OS files.
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Archives may contain the competition dataset.
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
