@@ -1,0 +1,21 @@
+{
+  "data_dir": "student_resource/dataset",
+  "candidates": {
+    "budget": 40,
+    "max_block": 200
+  },
+  "train": {
+    "trees": 300,
+    "sample_fraction": 0.25,
+    "max_negatives": 10
+  },
+  "predict": {
+    "threshold": 0.8
+  },
+  "full": {
+    "budget": 40,
+    "max_block": 200,
+    "trees": 300,
+    "threshold": 0.8
+  }
+}
